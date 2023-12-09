@@ -5,7 +5,7 @@ import sqlite3
 import firebase_admin
 from firebase_admin import credentials, db, initialize_app
 import os
-
+ https://deepnote.com/auth/magic-link?magic_link_token=8bf0e85d-d032-496b-b789-057adfae4a58&redirect_to=https%3A%2F%2Fdeepnote.com%2Fworkspace&source=landing-page
 cred = credentials.Certificate("\\ksmk\\iqv1-0.json")
 firebase_admin.initialize_app(cred, {'databaseURL': 'https://ghost2-74002-default-rtdb.firebaseio.com/'})
 database_connections = {
